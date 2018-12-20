@@ -150,7 +150,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\Service.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\Ishiko\WindowsServices.h" />
     <ClInclude Include="..\..\Include\Ishiko\WindowsServices\linkoptions.h" />
+    <ClInclude Include="..\..\Include\Ishiko\WindowsServices\Service.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

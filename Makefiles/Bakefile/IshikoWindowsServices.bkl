@@ -19,6 +19,14 @@ library IshikoWindowsServices
 
     headers
     {
+        ../../Include/Ishiko/WindowsServices.h
+
         ../../Include/Ishiko/WindowsServices/linkoptions.h
+        ../../Include/Ishiko/WindowsServices/Service.h
+    }
+
+    sources
+    {
+        ../../Source/Service.cpp
     }
 }
