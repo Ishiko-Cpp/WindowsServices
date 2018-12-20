@@ -16,23 +16,15 @@
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
     THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OROTHER DEALINGS
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
     IN THE SOFTWARE.
 */
 
-#ifndef _ISHIKO_WINDOWSSERVICES_SERVICE_H_
-#define _ISHIKO_WINDOWSSERVICES_SERVICE_H_
+#include "Ishiko/TestFramework/TestFrameworkCore.h"
 
-namespace Ishiko
+int main(int argc, char* argv[])
 {
-namespace WindowsServices
-{ 
+    Ishiko::TestFramework::TestHarness theTestHarness("IshikoWindowsServices");
 
-class Service
-{
-};
-
+    return theTestHarness.run();
 }
-}
-
-#endif
